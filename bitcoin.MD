@@ -1,5 +1,6 @@
 
 ```sudo apt-get install libboost-system-dev libboost-filesystem-dev libboost-program-options-dev libboost-chrono-dev libboost-test-dev libboost-thread-dev```
+
 ```sudo apt-get install build-essential libtool autotools-dev autoconf pkg-config libssl-dev libdb-dev libdb++-dev libevent-dev```
 
 
@@ -27,8 +28,8 @@ Build
 ```cd .bitcoin```
 ```nano bitcoin.conf```
 
-rpcuser=bitcoin
-rpcpassword=bitcoin
+rpcuser=username
+rpcpassword=password
 rpcport=8332
 server=1
 rpcallowip=0.0.0.0/0
