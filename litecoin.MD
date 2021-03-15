@@ -19,13 +19,11 @@ Build
 ```make -j6```
 
 
-```cd src```
-```sudo install -sv litecoind litecoin-cli /usr/local/bin```
+```cd src;sudo install -sv litecoind litecoin-cli /usr/local/bin```
 
 
 
-```cd .litecoin```
-```nano litecoin.conf```
+```cd .litecoin;nano litecoin.conf```
 
 rpcuser=username<br>
 rpcpassword=password<br>
