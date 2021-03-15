@@ -27,11 +27,11 @@ Build
 ```cd .litecoin```
 ```nano litecoin.conf```
 
-rpcuser=username
-rpcpassword=password
-rpcport=8332
-server=1
-rpcallowip=0.0.0.0/0
-rpcbind=127.0.0.1
-rpcbind=ip
+rpcuser=username<br>
+rpcpassword=password<br>
+rpcport=8332<br>
+server=1<br>
+rpcallowip=0.0.0.0/0<br>
+rpcbind=127.0.0.1<br>
+rpcbind=ip<br>
 
