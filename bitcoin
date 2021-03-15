@@ -27,11 +27,11 @@ Build
 ```cd .bitcoin```
 ```nano bitcoin.conf```
 
-```rpcuser=bitcoin
+rpcuser=bitcoin
 rpcpassword=bitcoin
 rpcport=8332
 server=1
 rpcallowip=0.0.0.0/0
 rpcbind=127.0.0.1
-rpcbind=ip```
+rpcbind=ip
 
