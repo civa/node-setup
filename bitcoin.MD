@@ -6,8 +6,7 @@
 
 Clone Bitcoin Repo
 
-```git clone https://github.com/bitcoin/bitcoin.git```
-```cd bitcoin```
+```git clone https://github.com/bitcoin/bitcoin.git;cd bitcoin```
 
 Checkout a preferred version
 
