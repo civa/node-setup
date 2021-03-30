@@ -11,7 +11,7 @@ Build
 ```./autogen.shz;./configure --without-gui --with-incompatible-bdb;make -j6```
 
 
-```cd src;sudo install -sv bitcoind bitcoin-cli /usr/local/bin```
+```cd src;sudo install -sv bitcoind bitcoin-cli /usr/local/bin;cd```
 
 
 
