@@ -1,7 +1,5 @@
 
-```sudo apt-get install libboost-system-dev libboost-filesystem-dev libboost-program-options-dev libboost-chrono-dev libboost-test-dev libboost-thread-dev```
-
-```sudo apt-get install build-essential libtool autotools-dev autoconf pkg-config libssl-dev libdb-dev libdb++-dev libevent-dev```
+```sudo apt-get install libboost-system-dev libboost-filesystem-dev libboost-program-options-dev libboost-chrono-dev libboost-test-dev libboost-thread-dev;sudo apt-get install build-essential libtool autotools-dev autoconf pkg-config libssl-dev libdb-dev libdb++-dev libevent-dev```
 
 
 Clone Bitcoin Repo
@@ -14,9 +12,7 @@ Checkout a preferred version
 
 Build 
 
-```./autogen.sh```
-```./configure --without-gui --with-incompatible-bdb```
-```make -j6```
+```./autogen.sh;./configure --without-gui --with-incompatible-bdb;make -j6```
 
 
 ```cd src;sudo install -sv litecoind litecoin-cli /usr/local/bin```
