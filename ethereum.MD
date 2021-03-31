@@ -1,6 +1,4 @@
-`sudo add-apt-repository -y ppa:ethereum/ethereum`
-`sudo apt-get update`
-`sudo apt-get install ethereum`
+`sudo add-apt-repository -y ppa:ethereum/ethereum;sudo apt-get update;sudo apt-get install ethereum`
 
 
 `nano /lib/systemd/system/geth.service`
