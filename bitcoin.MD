@@ -15,7 +15,7 @@ Build
 
 
 
-```nano .bitcoin/bitcoin.conf```
+```mkdir .bitcoin;nano .bitcoin/bitcoin.conf```
 
 rpcuser=username<br>
 rpcpassword=password<br>
